@@ -6,3 +6,6 @@ def index(request):
 
 def page_2(request):
     return render(request, 'blog/page-2.html')
+
+def page_3(request):
+    return render(request, 'blog/page-3.html')

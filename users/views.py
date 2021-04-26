@@ -6,3 +6,6 @@ def signup(request):
 
 def signin(request):
     return render(request, 'users/signin.html')
+
+def logout(request):
+    return render(request, 'users/logout.html')

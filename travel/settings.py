@@ -126,3 +126,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
     '/var/www/static/',
 ]
+
+LOGIN_REDIRECT_URL = "index"
+
+LOGOUT_REDIRECT_URL = "signin"
